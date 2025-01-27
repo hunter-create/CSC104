@@ -1,0 +1,27 @@
+/* this changes the color of background for the whole page */
+body {
+    background-color: burlywood;
+}
+/* this changes the position of the image in the page */
+img {
+    margin-left: 500px;
+    width: 400px;
+}
+/* this changes the font, alignment of text, and color of the first header */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: saddlebrown;
+}
+/* like the h1 tag but makes those changes to the header 2 tags */
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: saddlebrown;
+}
+/* changes the font, color, and position of the paragraph tags */
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: saddlebrown
+}
