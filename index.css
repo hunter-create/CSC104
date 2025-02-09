@@ -1,27 +1,54 @@
-/* this changes the color of background for the whole page */
-body {
-    background-color: burlywood;
+/* this adds a new color to the background of our html page */
+body{
+    background-color: rgb(40, 41, 42); 
 }
-/* this changes the position of the image in the page */
-img {
-    margin-left: 500px;
-    width: 400px;
-}
-/* this changes the font, alignment of text, and color of the first header */
+/* this changes the font, color and alignment of our Header */
 h1{
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: saddlebrown;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* like the h1 tag but makes those changes to the header 2 tags */
-h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* this removes the bullet points from our lost and also changes the background color */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  /* this was taken from w3 schools nav bar section but this adds a better look to our list then just stacked words */
+li a {
+    display: block;
+    color: white;
     text-align: center;
-    color: saddlebrown;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to black on hover */
+li a:hover {
+    background-color: #111;
+  }
+  /* this changes the look our our imgs so they fit on the screen better and fir side by side without major issues 
+  it also adds extra padding on the top to spereate it better from the navbar without adding 15 <br> lines */
+img {
+    width: 350px;
+    padding-inline: 55px;
+    padding-top: 20px;
 }
-/* changes the font, color, and position of the paragraph tags */
+/* This helps our paragraph section stick out a little more against the dark background so we can see the description of the pictures  */
 p{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: saddlebrown
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* this changes the color of our font in our footer tag */
+footer 
+{
+  margin-top: 40px;
+  color: aliceblue;
 }
