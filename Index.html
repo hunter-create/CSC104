@@ -1,0 +1,26 @@
+<html lang="en"> <!-- Defines the document as an HTML5 document and sets the language to English -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <title>Daily challenge</title> <!-- Sets the title of the document, which appears in the browser tab -->
+    <link rel="stylesheet" href="index.css"> <!-- Links the external CSS file for styling -->
+    <script src="index.js"></script> <!-- Links the external JavaScript file for functionality -->
+</head>
+<body>
+    
+<div class="container"> <!-- Container div to center and contain the content -->
+    <h1>Daily Photo challenge</h1> <!-- Main heading for the page -->
+    <div class="card"> <!-- Card div to style the challenge section -->
+        <p id="task">Click the button to get a photo idea</p> <!-- Paragraph to display the current task -->
+        <p>Click the button below to get today's photo challenge. After you get the photo idea, type into the text box how you went about getting the photo and how you felt taking it.</p> <!-- Instructional paragraph for the user -->
+        <button onclick="getTask()">Get Today's Photo Challenge</button> <!-- Button to get a new photo challenge, calls the getTask() function when clicked -->
+        <br> <!-- Line break for spacing -->
+        <textarea placeholder="Type here..."></textarea> <!-- Textarea for the user to type their response, with a placeholder text -->
+        <br> <!-- Line break for spacing -->
+        <button onclick="markCompleted()">Mark as Done</button> <!-- Button to mark the task as completed, calls the markCompleted() function when clicked -->
+        <p id="completed">Good job! Let's see you do another!</p> <!-- Paragraph to display a congratulatory message when a task is completed -->
+        <p id="completionCount">You have completed this challenge <span id="count">0</span> times.</p> <!-- Paragraph to display the count of completed challenges, with a span to hold the count -->
+    </div>
+</div>
+</body>
+</html>
